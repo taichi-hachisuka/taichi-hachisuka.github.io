@@ -1,0 +1,46 @@
+#title {
+    text-align: center;
+    color:rgb(150, 115, 3);
+    font-family:serif;
+}
+
+#説明文 {
+    text-align: center;
+    font-size: 15px;
+   font-family: serif;
+}
+
+#hachi {
+    width:50%;
+}
+
+#name {
+    text-align: center;
+}
+
+.yoyaku {
+    font-family: serif;
+    color: white;
+}
+
+#arigato {
+    color:rgb(150, 115, 3);
+    font-family: serif;
+}
+
+#ok {
+    font-family: serif;
+    font-size: 20px;
+}
+
+#tyu {
+    text-align: center;
+}
+
+body{
+    background-color: #1d1d31;
+}
+
+.yorosiku {
+    color: white;
+}
