@@ -1,0 +1,82 @@
+body{
+  background-color: #1d1d31;
+}
+.slide {
+position   : relative;
+overflow   : hidden;
+                  /* 画像のサイズに合わせて変更ください */
+width      : 1600px;
+height     : 1000px;
+margin     : auto;      /* サンプルは中央寄せの背景：白 */
+background :#1d1d31;
+}
+
+/*=== 画像の設定 ======================================= */
+.slide img {
+display    : block;
+position   : absolute;
+                    /* 画像のサイズを表示エリアに合せる */
+width      : inherit;
+height     : inherit;
+left       : 100%;
+animation  : slideAnime 15s ease infinite;
+}
+
+/*=== スライドのアニメーションを段差で開始する ========= */
+.slide img:nth-of-type(1) { animation-delay: 0s }
+.slide img:nth-of-type(2) { animation-delay: 3s }
+.slide img:nth-of-type(3) { animation-delay: 6s }
+.slide img:nth-of-type(4) { animation-delay: 9s }
+.slide img:nth-of-type(5) { animation-delay: 12s }
+
+
+@keyframes slideAnime{
+  0% { left: 100%  }
+  2% { left: 0     }
+ 18% { left: 0     }
+ 20% { left: -100% }
+100% { left: -100% }
+}
+
+#title {
+  font-size: 50px;
+  color:rgb(150, 115, 3);
+  font-family: serif;
+}
+
+.menu {
+color: white;
+text-align: center;
+font-size: 30px;
+font-family: serif;
+}
+
+#tobuyo {
+color: white;
+font-size: 30px;
+font-family: serif;
+
+}
+
+#menu {
+text-align: center;
+color: white;
+}
+
+#bunnsyou {
+text-align: center;
+font-size: 22px;
+color: white;
+font-family: serif;
+}
+
+#syousai {
+font-size: 20px;
+text-align: center;
+color: white;
+font-family: serif;
+}
+
+#yoyaku {
+color: white;
+}
